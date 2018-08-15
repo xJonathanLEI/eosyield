@@ -19,6 +19,10 @@ To test the contract, first set up a contract account, say `yield`:
 
     $ cleos system newaccount --buy-ram "1000.0000 SYS" --stake-net "100.0000 SYS" --stake-cpu "100.0000 SYS" eosio yield YOUR_PUBLIC_KEY;
 
+Publish the contract:
+
+    $ cleos set contract yield /path/to/contract/folder;
+
 Give account `owner` permission to `eosio.code` permission so that the contract itself can modify its own permission settings:
 
     $ cleos set account permission yield owner '{"threshold": 1,"keys": [{"key": "YOUR_PUBLIC_KEY","weight": 1}],"accounts": [{"permission":{"actor":"yield","permission":"eosio.code"},"weight":1}]}' -p yield@owner;
