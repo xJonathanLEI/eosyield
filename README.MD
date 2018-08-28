@@ -2,6 +2,10 @@
 
 This contract demostrates how an EOS contract can be made immutable in a given period of time, without losing mutability forever. Such a mechanism guarantees immutability when trustlessness is necessary, with code changes possible with prior notice to users.
 
+The intent of this contract is explained in [this reddit post](https://www.reddit.com/r/eos/comments/94zoch/demo_contract_for_temporary_immutability/).
+
+A modified version of this contract has been successfully used in [a game](https://github.com/erikajung/finalnoobcryptogame) in production.
+
 ## Clone and Compile
 
 To clone the repository and compile the contract into binary:
