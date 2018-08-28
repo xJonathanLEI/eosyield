@@ -50,3 +50,7 @@ To extend the yield period:
 To regain control after the expiration is reached:
 
     $ cleos push action yield regain '' -p jonathan;
+
+## License
+
+This EOS contract is licensed under the MIT license.
