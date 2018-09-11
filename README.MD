@@ -4,7 +4,13 @@ This contract demostrates how an EOS contract can be made immutable in a given p
 
 The intent of this contract is explained in [this reddit post](https://www.reddit.com/r/eos/comments/94zoch/demo_contract_for_temporary_immutability/).
 
-A modified version of this contract has been successfully used in [a game](https://github.com/erikajung/finalnoobcryptogame) in production.
+## Powered by EOS Yield
+
+The following dApps feature implementation of the Temporary Immutability pattern proposed by this contract:
+
+- [Final Noob](https://github.com/erikajung/finalnoobcryptogame): A decentralized EOS game.
+
+- [DeltaDex](https://deltadex.io): A fully on-chain decentralized exchange.
 
 ## Clone and Compile
 
